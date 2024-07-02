@@ -1,0 +1,6 @@
+run = "import pandas"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "import pandas"]
